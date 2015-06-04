@@ -148,6 +148,7 @@ main section{
 .gallery{
     width: 100%;
     margin: 20px auto;
+    position: relative;
 }
 
 .gallery .images{
@@ -173,9 +174,9 @@ main section{
     float:left;
     display:block;
     width:8.3333333333%;
-    opacity:.65;
+    opacity:.35;
     filter: grayscale(1);
-    transition: all 0.4s;
+    transition: all 0.3s;
 }
 
 .gallery .thumbs img.selected{
